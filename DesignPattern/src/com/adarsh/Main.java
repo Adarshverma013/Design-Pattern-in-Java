@@ -6,6 +6,10 @@ import com.adarsh.memento.Editor;
 import com.adarsh.memento.History;
 import com.adarsh.state.Canvas;
 import com.adarsh.state.SelectionTool;
+import com.adarsh.strategy.BlackAndWhiteFilter;
+import com.adarsh.strategy.ImageStorage;
+import com.adarsh.strategy.JpegCompressor;
+import com.adarsh.strategy.PngCompressor;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,19 +39,41 @@ public class Main {
 
 
         //Iterator Pattern
-        var history = new BrowseHistory();
-        history.push("a");
-        history.push("b");
-        history.push("c");
-        history.push("d");
+//        var history = new BrowseHistory();
+//        history.push("a");
+//        history.push("b");
+//        history.push("c");
+//        history.push("d");
+//
+//        Iterator iterator = history.createIterator();
+//
+//        while (iterator.hasNext()){
+//            var url = iterator.current();
+//            System.out.println(url);
+//            iterator.next();
+//        }
 
-        Iterator iterator = history.createIterator();
+        //Strategy Pattern
+        // Programming to an interface not to an implementation
+//        var imageStorage = new ImageStorage(new JpegCompressor(),new BlackAndWhiteFilter());
+//        imageStorage.store("a");
 
-        while (iterator.hasNext()){
-            var url = iterator.current();
-            System.out.println(url);
-            iterator.next();
-        }
+//        var imageStorage = new ImageStorage();
+//        imageStorage.store("a",new PngCompressor(),new BlackAndWhiteFilter());
+//        imageStorage.store("b",new JpegCompressor(),new BlackAndWhiteFilter());
+
+
+        //
+
+
+
+
+
+
+
+
+
+
 
 
     }
