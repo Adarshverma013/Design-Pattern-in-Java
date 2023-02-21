@@ -1,4 +1,4 @@
-package com.adarsh.iterator;
+package com.adarsh.behavioral.iterator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ public class BrowseHistory {
     }
 
     public String pop(){
-        var lastIndex = urls.size()-1;
-        var lastUrl = urls.get(lastIndex);
+        int lastIndex = urls.size()-1;
+        String lastUrl = urls.get(lastIndex);
         urls.remove(lastUrl);
 
         return lastUrl;

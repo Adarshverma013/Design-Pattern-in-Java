@@ -1,4 +1,4 @@
-package com.adarsh.iterator;
+package com.adarsh.behavioral.iterator;
 
 public interface Iterator {
     boolean hasNext();
