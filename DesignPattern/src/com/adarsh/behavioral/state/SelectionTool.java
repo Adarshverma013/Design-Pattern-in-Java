@@ -1,4 +1,4 @@
-package com.adarsh.state;
+package com.adarsh.behavioral.state;
 
 public class SelectionTool implements Tool{
 

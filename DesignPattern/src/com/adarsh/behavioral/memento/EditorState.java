@@ -1,4 +1,4 @@
-package com.adarsh.memento;
+package com.adarsh.behavioral.memento;
 
 public class EditorState {
     private final String content;

@@ -1,4 +1,4 @@
-package com.adarsh.memento;
+package com.adarsh.behavioral.memento;
 
 import java.util.ArrayList;
 import java.util.List;

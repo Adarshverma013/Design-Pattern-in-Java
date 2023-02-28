@@ -1,4 +1,4 @@
-package com.adarsh.strategy;
+package com.adarsh.behavioral.strategy;
 
 public interface Compressor {
 //    byte[] compress(byte[] image);

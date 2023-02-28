@@ -1,4 +1,4 @@
-package com.adarsh.strategy;
+package com.adarsh.behavioral.strategy;
 
 public class ImageStorage {
 //    private Compressor compressor;

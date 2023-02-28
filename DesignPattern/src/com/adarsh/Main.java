@@ -1,16 +1,5 @@
 package com.adarsh;
 
-import com.adarsh.iterator.BrowseHistory;
-import com.adarsh.iterator.Iterator;
-import com.adarsh.memento.Editor;
-import com.adarsh.memento.History;
-import com.adarsh.state.Canvas;
-import com.adarsh.state.SelectionTool;
-import com.adarsh.strategy.BlackAndWhiteFilter;
-import com.adarsh.strategy.ImageStorage;
-import com.adarsh.strategy.JpegCompressor;
-import com.adarsh.strategy.PngCompressor;
-
 public class Main {
     public static void main(String[] args) {
         //memento pattern

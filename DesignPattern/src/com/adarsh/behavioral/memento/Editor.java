@@ -1,4 +1,4 @@
-package com.adarsh.memento;
+package com.adarsh.behavioral.memento;
 
 // This pattern is used to implement undo mechanism
 public class Editor {
